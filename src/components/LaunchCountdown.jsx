@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import phoneVideo from "../assets/Homephone.mp4"; 
+import phoneVideo from "../assets/homephone.mp4"; 
 
 export default function LaunchCountdown() {
   const launchDate = new Date("2026-01-26T00:00:00").getTime();
