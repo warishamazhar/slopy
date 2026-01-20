@@ -2,7 +2,7 @@ import { useState } from "react";
 import rocketImg from "../assets/rocket.png";
 import heroDog from "../assets/hero-dog.png";
 import LogoTicker from "../components/LogoTicker";
-import coinVideo from "../assets/coinVideo.mp4";
+import coinVideo from "../assets/coinvideo.mp4";
 
 export default function RocketQuoteSection() {
   const [email, setEmail] = useState("");
