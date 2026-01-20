@@ -17,7 +17,7 @@ export default function AboutSection() {
   autoPlay
   loop
   muted
-  playsInline
+							  playsInline
   className="w-48 h-48 mb-6 mx-auto pointer-events-none"
 />
 
