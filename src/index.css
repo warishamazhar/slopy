@@ -1,0 +1,55 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background:#050505;
+  color:white;
+}
+.animate-marquee {
+  animation-play-state: running !important;
+}
+
+.animate-marquee:active,
+.animate-marquee:focus {
+  animation-play-state: running !important;
+}
+.animate-marquee {
+  animation-play-state: running;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+.glow {
+  text-shadow: 0 0 15px rgba(0, 255, 180, 0.6);
+}
+
+.glow-box {
+  box-shadow: 0 0 40px rgba(0, 255, 180, 0.15);
+}
+
+.glow-card {
+  box-shadow: inset 0 0 25px rgba(0, 255, 180, 0.2);
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
